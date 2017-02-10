@@ -1,0 +1,14 @@
+1)Diga que significan las cuatro graficas generadas, durante la elaboracion del laboratorio#2 con el comando plot()
+
+Grafica de residuos contra valores ajustados(Residuals vs Fitted):
+Podemos comprobar:
+ a) valores atıpicos (mirando a los extremos de los residuos)
+ b) heterocedasticidad; 
+ c) no linearidad con la variable respuesta (mirar la curvatura en la grafica).
+
+Grafica de normalidad de los residuos (Normal Q-Q):
+Se usa para comprobar el supuesto de normalidad de los ǫi.
+
+Grafica de la distancia de Cook (Residuals vs Leverage):
+Algunos valores (tanto si son atıpicos como si no) pueden tener un gran impacto en la estimacion de los parametros de regresion. Estos datos se dice que tienen gran influencia. La distancia de Cook mide la influencia de cada uno de los valores,dando la distancia por la que el vector de parametros estimados
+se moverıa si ese valor se quitara de los datos.
